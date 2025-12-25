@@ -4,6 +4,12 @@ This repo is a public companion to an Agents4Science-style research writeup. It 
 
 Status: concept note and experimental plan. No new experiments or datasets are included here.
 
+How to run:
+
+python3 scripts/validate_papers_csv.py data/papers.csv
+python3 scripts/make_status.py --papers data/papers.csv --out STATUS.md
+cat STATUS.md
+
 ## Why this exists
 
 Membrane trafficking research has produced deep mechanistic insight into individual pathways and complexes. At the same time, multiple lines of evidence suggest trafficking behaves like a coordinated network where perturbations propagate across pathway boundaries.
